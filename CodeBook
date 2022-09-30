@@ -1,0 +1,19 @@
+CodeBook
+
+The run_analysis.R script performs the required steps for this project.
+
+IDS:
+subj - ID of the test subject
+activityLabels - type of activity performed 
+
+Assigned files:
+features <-features.txt
+actLabels <- activity_labels.txt 
+sub_test <- subject_test.txt
+Xtest <- X_test.txt 
+Ytest <- y_test.txt 
+sub_train <- subject_train.txt 
+Xtrain <- X_train.txt 
+Ytrain <- y_train.txt 
+
+FinalData<- final output
