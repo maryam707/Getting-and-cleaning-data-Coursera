@@ -42,7 +42,7 @@ merged_dat=cbind(Subj, y, x)
 dat=merged_dat[,grepl("mean.|std.|subj|code",colnames(merged_dat))]
 
 #3)
-dat$code <- activityLabels[dat$code, 2]
+dat$code <- actLabels[dat$code, 2]
 
 #4)
 dat=dat%>%rename(activity=code)
